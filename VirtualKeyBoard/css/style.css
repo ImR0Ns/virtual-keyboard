@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+}
+.keyboard_layout {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5cdb95;
+    padding:  50px;
+}
+.keyboard_layout p {
+    font-size: 40px;
+    color: #8ee4af;
+    text-align: center;
+    padding: 5px;
+}
+.bg {
+    background-color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1280px;
+    }
+}
