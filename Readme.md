@@ -1,1 +1,1 @@
-# Pin card.
+# Virtual keyboard
