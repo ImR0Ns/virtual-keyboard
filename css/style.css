@@ -1,27 +1,52 @@
-body {
+button:focus {
+    outline: 0;
+}
+.pin-machine {
+    margin: auto;
+    width: 30%;
+    border: 2px solid grey;
     background-color: lightblue;
+    padding: 50px 10px 50px 10px;
+    margin-top: 100px;
+    border-radius: 10px;
 }
-.keyboard_layout {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #5cdb95;
-    padding:  50px;
-}
-.keyboard_layout p {
-    font-size: 40px;
-    color: #8ee4af;
-    text-align: center;
-    padding: 5px;
+.pin-key {
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
 }
 .bg {
-    background-color: white;
-    border-radius: 10px;
-    text-transform: uppercase;
+    border: none;
+    border-radius: 50%;
+    padding: 30px 40px 30px 40px;
+    font-size: 25px;
 }
-
-@media (min-width: 1200px) {
-    .container{
-        max-width: 1280px;
+@media only screen and (max-width: 425px)  {
+    .pin-machine {
+        width: 310px;
+        padding: 20px;
+    }
+    .row {
+        margin-left: -80px;
+    }
+}
+@media only screen and (max-width: 375px)  {
+    .pin-machine {
+        width: 310px;
+        padding: 20px;
+    }
+    .row {
+        margin-left: -80px;
+    }
+}
+@media only screen and (max-width: 320px)  {
+    .pin-machine {
+        width: 310px;
+        padding: 20px;
+    }
+    .row {
+        margin-left: -80px;
     }
 }
